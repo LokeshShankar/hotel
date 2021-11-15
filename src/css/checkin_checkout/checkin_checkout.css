@@ -1,0 +1,217 @@
+@import "../theme.css";
+
+.checkin_checkout-name-container {
+  flex-direction: row;
+  display: flex;
+}
+
+.checkin_checkout-sub-container {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.checkin_checkout-main-container {
+  margin: 7% auto;
+  width: 25%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--text-color);
+  border-radius: 8px;
+}
+.checkin_checkout-supreme-container button {
+  margin: 0 1rem 0 1rem;
+  height: 2rem;
+  width: 6rem;
+  border-width: 0;
+  border-radius: 0.7rem;
+  color: var(--text-color);
+  background-color: var(--bg-dark-color);
+}
+
+.checkin_checkout-main-container input {
+  padding: 5px;
+}
+
+.checkin_checkout-main-container input:focus {
+  border: 1px solid dodgerblue;
+  border-radius: 3px;
+}
+
+.checkin_checkout-main-container label {
+  display: none;
+  font-size: 11px;
+  color: var(--bg-dark-color);
+  font-family: sans-serif;
+  background-color: #ffffff;
+  padding: 0 3px;
+}
+
+.checkin_checkout-main-container input:focus + label {
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: -5px;
+}
+
+.checkin_checkout-main-container input:focus::-webkit-input-placeholder {
+  visibility: hidden; /* hide placeholder on focus */
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.group {
+  position: relative;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  align-items: center;
+}
+
+.myInput:focus::-webkit-input-placeholder {
+  visibility: hidden; /*hide placeholder on focus*/
+}
+
+.myInput {
+  padding: 5px;
+}
+
+.myInput:focus {
+  border: 1px solid dodgerblue;
+  border-radius: 3px;
+}
+
+.myInput-label {
+  display: none;
+  font-size: 11px;
+  color: var(--bg);
+  font-family: sans-serif;
+  background-color: #fff;
+  padding: 0 3px;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .checkin_checkout-main-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .checkin_checkout-main-container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .checkin_checkout-main-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .checkin_checkout-main-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .checkin_checkout-main-container {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  .checkin_checkout-main-container {
+    width: 25%;
+  }
+}
+
+.checkin_checkout-warning {
+  color: red;
+  margin: 10px 0 0;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.checkin_checkout-good {
+  color: green;
+  margin: 10px 0 0;
+  font-size: 0.8em;
+  text-align: center;
+}
+.no-bills-booking{
+  /* align-items: center; */
+  margin: 7% auto;
+  width: 75%;
+  font-size: 1.5rem;
+  border-width: 1px;
+  border-color: black;
+  display: flex;
+}
+.checkout-bills {
+  margin: 7% auto;
+  width: 75%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--text-color);
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .checkout-bills {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .checkout-bills {
+    overflow-x: auto; /* Horizontal */
+  }
+}
+.checkin_checkout-bills-header {
+  width: 100%;
+  background-color: var(--bg-dark-color);
+  color: var(--text-color);
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+#checkout-bills-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid var(--bg-dark-color);
+}
+
+#checkout-bills-table td,
+#checkout-bills-table th {
+  border: 1px solid var(--bg-dark-color);
+  padding: 8px;
+}
+
+#checkout-bills-table tr:nth-child(even) {
+  background-color: var(--text-color);
+}
+
+/* #checkout-bills-table tr:hover {background-color: var(--hover-color);} */
+
+#checkout-bills-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: var(--bg-dark-color);
+  color: white;
+}

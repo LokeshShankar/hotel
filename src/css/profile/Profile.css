@@ -1,0 +1,191 @@
+@import "../theme.css";
+
+.Profile {
+  margin: 5em auto;
+  width: 40em;
+  font-size: 14px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: gray 0 0 1em;
+  /* padding-left: 30%; */
+}
+
+/* @media only screen and (max-width: 768px) {
+  .Profile {
+    width: 100%;
+  }
+} */
+
+.Profile-header {
+  background: var(--bg-dark-color);
+  padding: 15px;
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.Profile--container {
+  padding: 1em 3em;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+/*Every row inside .Profile--container is defined with p tags */
+/* .Profile p {
+  padding: 12px;
+} */
+
+.Profile_input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--bg-dark-color);
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  overflow: hidden;
+  color: black;
+  margin: 1em 0;
+  /* margin:1em 11em; */
+}
+
+.Profile_input::placeholder {
+  color: var(--text-disabled);
+}
+
+.Profile_input:active {
+  background-color: transparent;
+}
+
+.Profile_button {
+  /* width: 10em;
+  border: none;
+    padding: 14px;
+    margin: 1em 12.5em;
+    border-radius: 2px;
+    background-color: var(--bg-dark-color);
+    color: var(--text-color);
+    border: 2px solid var(--bg-dark-color); */
+}
+/* .Profile_button:hover {
+  cursor: pointer;
+  background-color: var(--bg-dark-color);
+  opacity: 0.9;
+  border: 2px var(--bg-dark-color) solid;
+  box-shadow: black 0 0 0.8em;
+  color: white;
+} */
+
+.profile_btn-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Profile-warning {
+  color: red;
+}
+
+.forgot_pass {
+  color: black;
+}
+.forgot_pass:hover {
+  color: var(--bg-dark-color);
+}
+
+.Profile_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0.8em 0;
+}
+
+/* @import "../theme.css";
+
+.login {
+  margin: 5em auto;
+  width: 40em;
+  font-size: 14px;
+  border-radius: 2px;
+  /* overflow: hidden; */
+/* box-shadow: gray 0 0 1em;
+}*/
+
+/* @media only screen and (max-width: 768px) {
+  .login {
+    width: 80%;
+  }
+} */
+
+/* .login-header {
+  background: var(--bg-dark-color);
+  padding: 15px;
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.login--container {
+  padding: 1em 3em;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+} */
+
+/* Every row inside .login--container is defined with p tags */
+/* .login p {
+  padding: 12px;
+} */
+
+/* .login_input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--bg-dark-color);
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  overflow: hidden;
+  color: black;
+  margin: 1em 0;
+} */
+/* .login_input::placeholder {
+  color: var(--text-disabled);
+}
+.login_input:active {
+  background-color: transparent;
+}
+
+.login_button {
+  width: 10em;
+} */
+
+/* .login-warning {
+  color: red;
+}
+
+.forgot_pass {
+  color: black;
+}
+.forgot_pass:hover {
+  color: var(--bg-dark-color);
+} */
+/*
+.login_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0.8em 0;
+} */

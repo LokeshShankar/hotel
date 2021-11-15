@@ -1,0 +1,169 @@
+* {
+  --bg-light-color: #079fff;
+  --bg-dark-color: #fe414d;
+  --bg-secondary-color: black;
+  --bg-success-color: green;
+  --text-color: #efefef;
+  --hover-color: #fe414d;
+  --text-disabled: rgb(128, 128, 128);
+}
+
+/*Fe414d
+000000
+079fff */
+
+/* Buttons */
+.btn--publicis-primary {
+  padding: 14px;
+  margin: 1em 0;
+  border-radius: 2px;
+  background-color: var(--bg-dark-color);
+  color: var(--text-color);
+  border: 1px solid var(--bg-dark-color);
+}
+.btn--publicis-secondary {
+  padding: 14px;
+  margin: 1em 1em;
+  border-radius: 2px;
+  background-color: var(--bg-secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--bg-secondary-color);
+}
+.btn--publicis-primary:hover {
+  cursor: pointer;
+  background-color: var(--bg-dark-color);
+  opacity: 0.9;
+  /* border: 2px var(--bg-dark-color) solid; */
+  box-shadow: black 0 0 0.8em;
+  color: white;
+}
+.btn--publicis-secondary:hover {
+  cursor: pointer;
+  background-color: var(--bg-secondary-color);
+  opacity: 0.9;
+  /* border: 2px var(--bg-dark-color) solid; */
+  box-shadow: black 0 0 0.8em;
+  color: white;
+}
+.btn--publicis-success {
+  padding: 14px;
+  margin: 1em 0;
+  border-radius: 2px;
+  background-color: var(--bg-success-color);
+  color: var(--text-color);
+  border: 1px solid var(--bg-success-color);
+}
+.btn--publicis-success:hover {
+  cursor: pointer;
+  background-color: var(--bg-success-color);
+  opacity: 0.9;
+  /* border: 2px var(--bg-dark-color) solid; */
+  box-shadow: black 0 0 0.8em;
+  color: white;
+}
+
+.btn--publicis-secondary-outline {
+  box-sizing: border-box;
+  border: 2px solid var(--bg-secondary-color);
+  padding: 12px;
+  margin: 1em 0;
+  color: var(--bg-secondary-color);
+  background-color: white;
+}
+.btn--publicis-secondary-outline:hover {
+  cursor: pointer;
+  background-color: var(--bg-secondary-color);
+  /* border: 2px var(--bg-dark-color) solid; */
+  box-shadow: black 0 0 0.8em;
+  color: white;
+}
+
+/* Form Inputs */
+.--form-publicis-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--bg-dark-color);
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  overflow: hidden;
+  color: black;
+}
+.--form-publicis-input::placeholder {
+  color: var(--text-disabled);
+}
+.--form-publicis-input:active {
+  background-color: transparent;
+}
+
+/* Form Group */
+.--form-publicis-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 1.5em 0;
+  align-items: center;
+}
+.--form-publicis-group label {
+  display: block;
+  width: 25%;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+.--form-publicis-group input {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+}
+@media screen and (max-width: 750px) {
+  .--form-publicis-group label {
+    width: 100%;
+  }
+  .--form-publicis-group input,
+  select {
+    width: 100%;
+  }
+}
+
+/* Form Card */
+.--form-card-publicis {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: gray 0 0 1em;
+  margin: 5em auto;
+  width: 40%;
+}
+@media screen and (max-width: 1024px) {
+  .--form-card-publicis {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .--form-card-publicis {
+    width: 80%;
+  }
+}
+
+.--form-card-publicis .--form-card-publicis-header {
+  background: var(--bg-dark-color);
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+  padding: 15px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.--form-card-publicis .--form-card-publicis-body {
+  padding: 1em 3em;
+}
+.no-result-header {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}

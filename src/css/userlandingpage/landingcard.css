@@ -1,0 +1,27 @@
+.landingCard {
+  width: 40%;
+  /* margin: 3%; */
+  box-shadow: gray 0 0 1em;
+  cursor: pointer;
+  /* margin-left: 5%; */
+}
+
+.landingCard:hover {
+  /* border:1px solid var(--bg-dark-color); */
+  box-shadow: grey 0 0 0.5em;
+}
+
+@media screen and (max-width: 750px) {
+  .landingCard {
+    width: 90%;
+  }
+}
+
+.landingCardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4em;
+  justify-content: center;
+  margin: 3em 0;
+}

@@ -1,0 +1,98 @@
+@import "../theme.css";
+
+/* .admin-component {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.myInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.myButton {
+  margin: 2em;
+} */
+
+/* form Input {
+  margin: 2%;
+} */
+
+/* @media screen and (max-width: 500px) {
+  .admin-component {
+    width: 100%;
+  }
+  .myInput {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 500px) {
+  .admin-component {
+    width: 80%;
+  }
+  .myInput {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .admin-component {
+    width: 60%;
+  }
+  .myInput {
+    width: 100%;
+  }
+} */
+
+/* .btnGroup {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+} */
+
+/* .btnGroup button {
+  margin: 5%;
+} */
+
+/* .boxx {
+  margin: 2em auto;
+  text-align: center;
+  background-color: rgb(207, 207, 207);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.boxx .inputBox {
+  width: 50%;
+}
+
+.btn-boxx {
+  margin-top: 2em;
+}
+
+.multiselect {
+  background-color: white;
+  border-radius: 0.5em;
+} */
+.error-name-admin {
+  color: red;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: smaller;
+}
+
+.bill_entry_button {
+  display: block;
+  margin-left: auto;
+  width: 10em;
+}

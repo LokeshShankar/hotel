@@ -1,0 +1,108 @@
+@import "../theme.css";
+
+.unlockUser {
+  margin: 5% 15%;
+}
+
+.unlockUser .filters {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+}
+.unlock_user_input {
+  width: 70%;
+}
+.unlock_user_btns {
+  width: 10em;
+}
+/* .unlockUser .filterByUser {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 1rem;
+} */
+
+/* .unlockUser .filterByUser input {
+  margin-top: 0.5rem;
+  width: 80%;
+} */
+
+/* .unlockUser .filterButtons {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 1rem;
+  justify-content: center;
+} */
+
+/* .unlockUser .filterButton {
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 1rem;
+} */
+
+.userResults {
+  text-align: center;
+}
+
+.userResults table {
+  width: 100%;
+  margin: 2rem 0rem;
+  border-collapse: collapse;
+}
+
+.userResults thead tr {
+  background-color: var(--bg-dark-color);
+  color: rgb(255, 255, 255);
+  height: 3em;
+}
+
+.userResults td,
+.userResults th {
+  height: auto;
+  width: auto;
+  padding: 0.25rem;
+  border: 1px solid rgb(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1000px) {
+  .unlockUser {
+    margin: 5% 10%;
+  }
+
+  .unlockUser .filters {
+    padding: 0rem 2rem;
+  }
+}
+/* 
+@media screen and (max-width: 750px) {
+  .unlockUser {
+    margin: 5% 10%;
+    font-size: 0.8rem;
+  }
+
+  .unlockUser .filters {
+    flex-direction: column;
+    padding: 0.5rem 0rem;
+  }
+
+  .unlockUser .filterByUser {
+    width: 90%;
+    margin: 0.2rem 1rem;
+    text-align: center;
+  }
+
+  .unlockUser .filterByUser input {
+    margin: 0.2rem auto 0rem auto;
+  }
+
+  .unlockUser .filterButtons {
+    width: 90%;
+    margin: 0.5rem 1rem;
+  }
+
+  .unlockUser .filterButton {
+    margin: 0.2rem 1rem;
+  }
+} */

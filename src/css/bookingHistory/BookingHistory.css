@@ -1,0 +1,81 @@
+@import "../theme.css";
+
+.bookinghist_btngrp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.bookinghist-btns {
+  width: 20em;
+  text-transform: uppercase;
+}
+.bookinghist-active {
+  color: maroon !important;
+}
+.roomsBookedhistory_flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.roomsBookedhistory_roomtypes_whole {
+  margin: 1em 0;
+}
+.roomsBookedhistory_heading {
+  text-align: center;
+  font-weight: 600;
+  margin: 1em 0;
+}
+.roomBookshistory_roomtype {
+  border-radius: 5px;
+  box-shadow: gray 0 0 1em;
+  width: 40%;
+}
+@media (max-width: 725px) {
+  .roomBookshistory_roomtype {
+    width: 80%;
+  }
+}
+
+.roomBookshistory_roomtype .roomBookshistory_roomtype_header {
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--bg-dark-color);
+  padding: 15px;
+  border-top-left-radius: inherit;
+}
+
+.roomBookshistory_roomtype .roomBookshistory_roomtype_body {
+  padding: 1em;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+}
+
+.bookingHistory_bookingDetails_whole {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: space-around;
+}
+.bookingHistory_bookingDetails_elem p {
+  font-weight: 600;
+}
+
+.bookingHistory_buttons_whole {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: space-around;
+}

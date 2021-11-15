@@ -1,0 +1,104 @@
+.searchHomeContainer{
+    width: 40%;
+    border-radius: 2em;
+    border-style: solid;
+    padding:2%;
+    padding-left: 4%;
+    background-color: white;
+}
+.searchHomeInnerContainerLocation{
+    width:100%;
+}
+.searchHomeInnerContainerDate{
+    margin-top: 2%;
+    display: inline-block;
+    width:50%;
+}
+.searchHomeInnerContainerNumber{
+    margin-top: 2%;
+    display: inline-block;
+    width:20%;
+}
+.searchHomeLabels{
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+.searchHomeInputLocation{
+    width:90%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    font-size: 1.5em;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+.searchHomeInputDate {
+    width:80%;
+    display: inline-block;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    font-size: 1em;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+.searchHomeInputNumber{
+    width:80%;
+    display: inline-block;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    font-size: 1em;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+.searchHomeInputLocation:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .searchHomeInputDate:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .searchHomeInputNumber:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+  .searchHomeSubmitDiv{
+    margin-top: 2%;
+    display: inline-block;
+    width:40%;
+    text-align: center;
+  }
+  @media screen and (max-width: 926px) {
+    .searchHomeContainer{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 926px) and (min-width: 482){
+    .searchHomeContainer{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 482px){
+    .searchHomeContainer{
+      width: 80%;
+    }
+    .searchHomeInnerContainerNumber{
+      width: 30%;
+    }
+    .searchHomeSubmitDiv{
+      margin-top: 2%;
+      display: inline-block;
+      width:90%;
+      text-align: right;
+    }
+  }

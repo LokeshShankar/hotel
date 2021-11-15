@@ -1,0 +1,144 @@
+@import "../theme.css";
+/* 
+.admin-component {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.myInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} */
+
+/* form Input {
+  margin: 2%;
+} */
+
+/* @media screen and (max-width: 500px) {
+  .admin-component {
+    width: 100%;
+  }
+  .myInput {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 500px) {
+  .admin-component {
+    width: 80%;
+  }
+  .myInput {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .admin-component {
+    width: 60%;
+  }
+  .myInput {
+    width: 100%;
+  }
+}
+*/
+.admin_hotel_btnGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1em;
+}
+.admin_new_hotel_btnGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+/* .btnGroup button {
+  margin: 5%;
+} */
+
+/* .hotel-box {
+  margin: 2em auto;
+  text-align: center;
+  background-color: rgb(207, 207, 207);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.hotel-box .inputBox {
+  width: 50%;
+}
+
+.btn-box {
+  margin-top: 2em;
+} */
+
+.multiselect {
+  background-color: white;
+  border-radius: 0.5em;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  border: 2px solid var(--bg-dark-color);
+}
+@media screen and (max-width: 750px) {
+  .multiselect {
+    width: 100%;
+  }
+}
+.newroom_form_select {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+}
+@media screen and (max-width: 750px) {
+  .newroom_form_select {
+    width: 100%;
+  }
+}
+
+.error-name-admin {
+  color: red;
+  margin: 0;
+  text-align: left;
+  font-size: smaller;
+  margin-left: auto;
+}
+
+.admin-button {
+  display: block;
+  margin-left: auto;
+  width: 10em;
+}
+.admin-button2 {
+  display: block;
+  width: 10em;
+}
+
+.map {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.google-map {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex: 80%; */
+  justify-content: center;
+}
+
+.myMapButton {
+  flex: 20%;
+  justify-content: center;
+}

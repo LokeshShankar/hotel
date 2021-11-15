@@ -1,0 +1,97 @@
+@import "../theme.css";
+
+.row {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2em;
+  gap: 2em;
+}
+.column-details {
+  width: 30em;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: gray 0 0 1em;
+  text-align: left;
+  /* position: relative; */
+}
+.booking_det_header {
+  background: var(--bg-dark-color);
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+  padding: 15px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.column-details-inner {
+  padding: 0 1.5em;
+}
+.column-rooms {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+@media screen and (max-width: 1350px) {
+  .column-details {
+    width: 25em;
+  }
+  .column-rooms {
+    width: 40em;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .column-details {
+    width: 50em;
+  }
+  .column-rooms {
+    width: 50em;
+  }
+}
+
+.booking_details_prices_table {
+  width: 100%;
+  max-width: 30em;
+}
+.booking_details_prices_table th {
+  padding: 0.5em 0.5em 0 0.5em;
+}
+.booking_details_prices_table td {
+  padding: 0.5em;
+}
+
+.book-pay-btn {
+  display: block;
+  margin-left: auto;
+  text-transform: uppercase;
+}
+
+.bookingDisable {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* border-radius: inherit; */
+  overflow: hidden;
+  z-index: 1;
+}
+.bookingDisableMessage {
+  color: #efefef;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.book_page_room {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

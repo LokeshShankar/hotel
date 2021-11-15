@@ -1,0 +1,40 @@
+* {
+  --bg-color: #0a1931;
+  --text-color: #efefef;
+  --hover-color: #ffc947;
+}
+
+.landingPage {
+  margin: 3% 5%;
+}
+
+.topRatedHotels {
+  margin-bottom: 3%;
+}
+.topRatedHotelsHeader {
+  text-align: center;
+}
+.topRatedHotelsHeader,
+.contentHeader {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: darkslategrey;
+  margin-left: 2.7%;
+}
+.topRatedHotelsPara {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: grey;
+  margin-left: 2.7%;
+}
+@media screen and (max-width: 750px) {
+  .landingPage {
+    margin: 5% 10%;
+  }
+
+  .topRatedHotels {
+    margin-bottom: 5%;
+  }
+}

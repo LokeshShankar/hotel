@@ -1,0 +1,73 @@
+@import "../theme.css";
+/* * {
+  --bg-color: #0a1931;
+  --text-color: #efefef;
+  --hover-color: #ffc947;
+} */
+.headingAdmin {
+  margin: 1em auto;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--bg-dark-color);
+}
+
+.hotelAdminPage {
+  display: flex;
+  margin: 0 2em;
+}
+/* 
+.hotelAdminCards {
+  width: 100%;
+} */
+
+.adminhotelfilter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin: 1em auto;
+  box-shadow: 0 0 1em gray;
+  padding: 0.5em;
+  width: 70%;
+  align-items: baseline;
+}
+.adminhotelfilter .--form-publicis-input {
+  width: 40%;
+}
+.adminhotelfilterhead {
+  font-weight: 600;
+  color: var(--bg-dark-color);
+}
+.back-buttonAdmin {
+  margin: 2px;
+  margin-left: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+  background-color: #6e6e6e;
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.hotelAdminPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 
+@media screen and (max-width: 750px) {
+  .hotelAdminPage {
+    margin: 0% 5%;
+  }
+
+  .hotelAdminCards {
+    width: 100%;
+  }
+} */

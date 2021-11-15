@@ -1,0 +1,44 @@
+@import "../theme.css";
+
+.roomCard {
+  border-radius: 5px;
+  box-shadow: gray 0 0 1em;
+  padding: 1em 1.5em;
+}
+
+.roomTypeName {
+  font-size: 25px;
+  /* border: 2px solid var(--bg-dark-color); */
+  color: var(--bg-dark-color);
+}
+
+.inclusions {
+  color: gray;
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.roomCard td {
+  font-size: medium;
+  padding: 5px 10px 0px;
+}
+
+.roomcountInput {
+  width: 15%;
+}
+
+.details p {
+  display: inline;
+  margin-right: 10%;
+}
+
+.details .room {
+  border: solid transparent 0.1em;
+  padding: 3%;
+  padding-left: 0%;
+}

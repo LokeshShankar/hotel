@@ -1,0 +1,96 @@
+@import "../theme.css";
+footer {
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 100%;
+  /* position: absolute; */
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  background: var(--bg-dark-color);
+}
+footer .content {
+  max-width: 100%;
+  margin: auto;
+  padding: 3em 2em;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .content p,
+footer .content a {
+  color: var(--text-color) !important;
+}
+footer .content .box {
+  width: 35%;
+  transition: all 0.4s ease;
+}
+footer .content .topic {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+footer .content p {
+  text-align: justify;
+}
+footer .content .lower .topic {
+  margin-bottom: 16px;
+}
+footer .content .lower i {
+  padding-right: 10px;
+}
+footer .content .media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid var(--text-color);
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.phone,
+.email {
+  margin-bottom: 8px;
+}
+
+.content .media-icons a:hover {
+  border-color: var(--hover-color);
+}
+footer .content .bottom {
+  width: 100%;
+  text-align: justify;
+  color: var(--text-color);
+  padding: 20px 40px 5px 0;
+}
+footer .content .bottom a {
+  color: var(--text-color);
+}
+footer a {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 950px) {
+  footer .content .box {
+    width: 40%;
+  }
+  .content .right {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 560px) {
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 0px;
+  }
+  .content .right {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

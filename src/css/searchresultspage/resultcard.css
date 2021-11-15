@@ -1,0 +1,111 @@
+/* * {
+    --bg-color: #0a1931;
+    --text-color: #efefef;
+    --hover-color: #ffc947;
+}
+
+.resultCard * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.resultCard .hotelCard {
+    display: flex;
+    margin: 0rem 0rem 1rem 0rem;
+    background-color: var(--text-color);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+
+.resultCard .cardImage {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.resultCard .cardImage img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+} 
+
+.resultCard .cardInfo {
+    flex-direction: column;
+    width: 70%;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.resultCard .infoHeader {
+    width: 100%;
+    padding: 0.25rem 0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.resultCard .infoBody {
+    display: flex;
+}
+
+.resultCard .infoBodyDetails {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.resultCard .infoBodyLocation, .resultCard .infoBodyAmenities, .resultCard .infoBodyPrice {
+    width: 100%;
+    padding: 0.25rem 0rem;
+}
+
+.resultCard .infoBodyAmenities ul {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .resultCard .hotelCard {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resultCard .cardImage {
+        width: 100%;
+        padding: 0.75rem;
+    }
+
+    .resultCard .cardInfo {
+        width: 100%;
+        padding: 0rem 0.75rem 0.75rem 0.75rem;
+    }
+
+    .resultCard .infoHeader {
+        font-size: 1.2rem;
+    }
+} */
+
+.resultCard {
+  width: 40%;
+  height: 30em;
+  margin-left: 9%;
+  margin-bottom: 5%;
+  display: inline-flex;
+  box-shadow: gray 0 0 1em;
+  padding-bottom: 2%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.resultCard:hover {
+  /* border: 1px solid var(--bg-dark-color); */
+  box-shadow: gray 0 0 0.5em;
+}
+
+@media (max-width: 900px) {
+  .resultCard {
+    width: 90%;
+  }
+}

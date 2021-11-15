@@ -1,0 +1,57 @@
+/* :root {
+  --bg-color: #0a1931;
+  --text-color: #efefef;
+  --hover-color: #ffc947;
+} */
+@import "../theme.css";
+
+.navhead {
+  color: var(--bg-dark-color);
+  font-size: 30px;
+}
+.navhead .navhead-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--bg-dark-color);
+  text-decoration: none !important;
+}
+
+.navbar-menu-btn {
+  color: var(--bg-dark-color);
+
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+  margin: 0;
+}
+@media (max-width: 920px) {
+  .navbar-menu-btn {
+    display: block;
+    align-items: center;
+    width: max-content;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .navhead i {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .navhead .navhead-title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,21 @@
+@import "../theme.css";
+
+.room-head {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.room-container {
+  margin: 5em 2em 1em 2em;
+  padding: 2em 1em;
+  box-shadow: 0 0 1em black;
+  border-radius: 2px;
+}
+
+@media (max-width: 480px) {
+  .room-head {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+  }
+}

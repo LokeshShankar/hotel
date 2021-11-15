@@ -1,0 +1,33 @@
+#navbar {
+    /* overflow: hidden; */
+    position: sticky;
+    top:0;
+    margin-bottom: 5%;
+    width:100%;
+    background-color: rgb(34, 116, 224);
+  }
+  
+  #navbar a {
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    font-size: 30px;
+    color : #fff;
+    font-weight: 600; 
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  @media (max-width:480px)  {
+        .navbar a{ 
+            font-size: 20px;
+        }
+  }
+
+  @media (max-width:468px)  {
+    #navbar a{ 
+      font-size: 25px;
+    }
+}

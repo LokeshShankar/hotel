@@ -1,0 +1,80 @@
+@import '../theme.css';
+.service-list-container{
+  padding-left:2em;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.hotel-bill-service-container{
+  width: 60%;
+}
+.hotel-bill-service-create-new
+{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.hotel-bill-service-create-new input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--bg-dark-color);
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 14px;
+  overflow: hidden;
+  color: black;
+}
+  .service-name{
+    width: 10em;
+  }
+  .to-do-item {
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 15px;
+   
+    font-weight: 600px;
+    user-select: none;
+  }
+ .price-update{
+    background-color: white;
+    color:var(--bg-dark-color);
+    color:black;
+    width:25%;
+    padding:1%; text-align: center; 
+  } 
+  .price-updated{
+    background-color: white;
+    color:var(--bg-dark-color);
+    color:black;
+    border: 1px solid var(--bg-dark-color);
+    font-weight: 600;
+    width:25%;
+    padding:1%; text-align: center; 
+  }
+  .name {
+    margin-left: 10px;
+  }
+  .name input {
+    width: 350px;
+    color: #333;
+    padding: 5px;
+    border: none;
+    border-radius: 1px;
+  }
+  
+  .actions {
+    margin-right: 10px;
+  }
+  @media (max-width:768px) {
+    .hotel-bill-service-container{
+      width: 90%;
+      justify-content: start;
+    }
+    .hotel-bill-service-create-new input{
+      width: 30%;
+
+    }
+  }

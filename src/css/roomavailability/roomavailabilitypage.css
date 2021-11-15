@@ -1,0 +1,160 @@
+@import "../theme.css";
+
+.rooms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.room_details_header_container {
+  display: flex;
+  justify-content: center;
+}
+.room_details_header {
+  font-size: 25px;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: black;
+  border: 2px solid var(--bg-dark-color);
+}
+
+.select_rooms .book .roomCounter{
+    margin-left: 2px;
+}
+/* .roomTypes {
+  text-align: center;
+}
+*/
+/* .roomDescription {
+  padding: 1em 2em;
+
+} */
+
+.roomOptionsWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.roomInclusions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+.selectroom_inclusion {
+  margin-right: 18px;
+  color: gray;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.select_room_room_rate {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--bg-dark-color);
+  /* display: block; */
+  align-self: flex-end;
+  /* justify-content: flex-end; */
+}
+.per_night {
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+/*
+.roomImageWrapper {
+  grid-column: 2/ 3;
+  grid-row: 1 / 2;
+} */
+
+/* .roomOptionsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  flex-wrap: wrap;
+} */
+
+/* .roomImage {
+  width: 20%;
+}
+.roomContainer .room {
+  margin: 35px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  background: #cfe0e8;
+  color: #0a1931;
+} */
+
+/* .roomsAvailabilityPage h1 {
+  margin-left: 37px;
+} */
+/* 
+.roomDescription {
+  padding: 5px 20px;
+} */
+
+/* .roomOptionsWrapper ul li i {
+  color: var(--yellow);
+  margin-right: 10px;
+} */
+/* .room h3 {
+  font-size: 24px;
+  padding-left: 10px;
+  padding-top: 10px;
+} */
+/* .roomDescription ul {
+  margin: 15px 0;
+}
+
+.roomDescription ul li {
+  padding: 7px 0;
+}
+
+.roomText ul li {
+  padding: 7px 0;
+} */
+
+/* .rate {
+  opacity: 0.8;
+}
+.rate span {
+  font-size: 30px;
+  font-weight: 800;
+  color: hsl(216, 89%, 25%);
+} */
+
+/* .btn {
+  font-size: small;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+} */
+
+.continue_book_btn {
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 1em 2em;
+}
+
+/* .continue-btn div {
+  width: 100%;
+}
+.continue-btn button {
+  margin: 0 1em;
+  border-radius: 5px;
+} */
+
+/* @media screen and (max-width: 750px) {
+  .roomImageWrapper {
+  }
+
+  .roomOptionsWrapper {
+  }
+} */

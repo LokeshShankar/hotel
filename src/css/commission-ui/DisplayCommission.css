@@ -1,0 +1,145 @@
+@import "../theme.css";
+
+.commission-dropdown {
+    margin-top : 3%;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--bg-dark-color);
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid var(--bg-dark-color);
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    /* display: block; */
+}
+
+.search-btn{
+    padding: 14px;
+    margin: 1em 0;
+    border-radius: 2px;
+    background-color: white;
+    color: black;
+    border: 1px solid var(--bg-secondary-color);
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background-color: var(--bg-secondary-color);
+    opacity: 0.9;
+    /* border: 2px var(--bg-dark-color) solid; */
+    box-shadow: black 0 0 0.8em;
+    color: white;
+  }
+
+.select-label{
+    /* margin-right: 2%; */
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--bg-dark-color);
+    display: inline;
+}
+
+.options {
+    margin-right: 5%;
+    display: inline-flex;
+}
+
+.drop-option{
+    background-color: white;
+    color: black;
+    border: 1px solid lightgrey;
+}
+
+.commission-div{
+    margin-left: 33%;
+    margin-top: 3%;
+    /* border-bottom: 1px solid lightgrey; */
+}
+
+.com-hr{
+    border-bottom: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.no-data{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.count-price{
+    margin-top:5%;
+}
+
+.inner-count-price{
+    margin-top: 3%;
+    text-align: justify;
+    margin-left: 28%;
+}
+
+.commission-date{
+    float:right;
+    margin-bottom: 2%;
+}
+
+.inner-labels{
+    font-size: 16px;
+    color : black;
+    /* font-weight: 550; */
+}
+
+.inner-values{
+    font-size: 20px;
+    color : darkslategray;
+    font-weight: 550;
+    margin-left: 2%;
+}
+
+.inner-value{
+    color : var(--bg-dark-color);
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+
+.bill-to{
+    color: darkslategray;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.hotel-address{
+    line-height: 1.5;
+}
+
+.hotel-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media(max-width:768px) {
+    .inner-count-price{
+        margin-left: 8%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .commission-div{
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    .commission-div{
+        margin-left: 20%;
+    }
+
+    .inner-count-price{
+        margin-left: 8%;
+    }
+}

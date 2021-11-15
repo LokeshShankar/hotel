@@ -1,0 +1,64 @@
+.aboutus_container {
+  width: 90%;
+  margin: 50px auto;
+}
+.aboutus_heading {
+  text-align: justify;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.aboutus_row {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.aboutus_card {
+  width: 40%;
+  background: #fff;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.aboutus_card-header {
+  text-align: center;
+  padding: 2px 2px;
+  background: #fe414d;
+  color: #fff;
+}
+
+.aboutus_card-body {
+  padding: 10px 10px;
+  /* border: solid; */
+  text-align: justify;
+  font-size: 18px;
+}
+.aboutus_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutus_card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .aboutus_container {
+    width: 100%;
+  }
+
+  .aboutus_heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .aboutus_card {
+    width: 80%;
+  }
+}

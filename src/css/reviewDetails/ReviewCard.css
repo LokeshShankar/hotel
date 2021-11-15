@@ -1,0 +1,164 @@
+@import "../theme.css";
+.review-card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.review-card-button Button {
+  margin-right: 1em;
+}
+
+.review-card {
+  /* padding : 5vw; */
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 2%;
+  margin: 1%;
+  box-shadow: lightgrey;
+}
+
+.review-name {
+  font-weight: 650;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.review-body {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.review-container {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding: 1%;
+  display: block;
+  /* min-height: 100vh; */
+}
+
+.review-head {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-dark-color);
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin: 20px 0;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.time {
+  margin-left: 10px;
+  color: grey;
+  font-size: 15px;
+}
+
+.review-rating {
+  display: inline-block;
+  float: right;
+}
+
+@media (max-width: 480px) {
+  .profileImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 0;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .review-rating {
+    display: flex;
+  }
+
+  .review-body {
+    font-size: 15px;
+  }
+
+  .review-name {
+    font-size: 15px;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+
+  .review-head {
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+  }
+}
+/* @media (max-width:769px)  { 
+    .profileImage{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background : green;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin: 20px 0;
+        margin-right: 10px;
+        display:inline-block;
+    }
+
+    .review-rating{
+        display: inline;
+        float : right;
+    }
+
+    .review-body{
+        font-size: 20px;
+    }
+
+    .review-name{
+        font-size: 20px;
+    }
+
+    .time{
+        font-size: 15px;
+    }
+
+    .review-head{
+        font-size: 30px;
+        font-weight: 650;
+    }
+} */
+
+.button1 {
+  width: 15em;
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 3em;
+}
+
+@media (max-width: 769px) {
+  .button1 {
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+    font-size: 18px;
+    display: block;
+  }
+}

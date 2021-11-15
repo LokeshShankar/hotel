@@ -1,0 +1,14 @@
+.MainInvoice{
+    display: table;
+    margin:  auto;
+    width:70%;
+    height:50em;
+  }
+
+
+@media (max-width:700px) {
+ .MainInvoice{
+    height:40em;
+    width: 90%;
+  }
+}

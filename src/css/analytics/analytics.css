@@ -1,0 +1,136 @@
+@import "../theme.css";
+
+.analytics-search-outer-container {
+    top: 0;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+@media screen and (max-width: 950px) {
+    .analytics-search-outer-container {
+        position: relative;
+    }
+}
+
+.analytics-searchBarcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+.analytics-searchBarInnerContainerDate {
+    width: 32%;
+    display: inline-block;
+    margin: 5px 0;
+    border-width: 0px;
+}
+.analytics-searchBarInnerContainerSearch {
+    width: 20%;
+    display: inline-block;
+    margin: 5px 0;
+    border-width: 0px;
+    text-align: center;
+}
+.analytics-searchBarLabels {
+    text-align: center;
+    color: var(--bg-dark-color);
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.analytics-searchBarInputDate {
+    background-color: var(--bg-dark-color);
+    width: 95%;
+    color: white;
+    display: inline-block;
+    /* border-radius: 0.8rem; */
+    margin: 10px 0;
+    font-size: 1em;
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1312px) and (min-width: 970px) {
+    .analytics-searchBarcontainer {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .analytics-searchBarInnerContainerDate {
+        width: 32%;
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width: 970px) {
+    .analytics-searchBarcontainer {
+        padding-left: 10%;
+        padding-right: 0%;
+    }
+    .analytics-searchBarInnerContainerDate {
+        width: 33%;
+        margin: 5px 0;
+    }
+    .analytics-searchBarInnerContainerSearch {
+        margin: 5px 0;
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+    }
+    .sanalytics-earchBarInputDate {
+        margin: 2px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .analytics-searchBarcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .analytics-searchBarInnerContainerDate {
+        width: 80%;
+    }
+    .analytics-searchBarInnerContainerSearch {
+        width: 80%;
+    }
+    .sanalytics-earchBarInputDate {
+        width: 80%;
+    }
+}
+.graph-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 4em;
+    gap: 4em;
+    justify-content: center;
+    margin: 3em 0;
+}
+.graph-sub-container{
+    width : 40%;
+    border: 1px solid black;
+    padding: 1%;
+    box-shadow: 0 0 1em grey;
+    cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+    .graph-sub-container{
+        width : 60%;
+        padding: 3%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .graph-sub-container{
+        width : 80%;
+        padding: 3%;
+    }
+}

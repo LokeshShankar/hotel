@@ -1,0 +1,39 @@
+.reviewDetails_hotelDetails_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.reviewDetails_hotelDetails_container .slide-container {
+  width: 50%;
+}
+.reviewDetails_hotelDetails_container .reviewDetails_hotel_container {
+  width: 35%;
+}
+
+@media screen and (max-width: 1620px) {
+  .reviewDetails_hotelDetails_container .slide-container {
+    width: 45%;
+  }
+  .reviewDetails_hotelDetails_container .reviewDetails_hotel_container {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .reviewDetails_hotelDetails_container .slide-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  .reviewDetails_hotelDetails_container .reviewDetails_hotel_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+.hotel-google-map {
+  overflow: hidden;
+  margin: 2em;
+}

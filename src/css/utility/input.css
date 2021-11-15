@@ -1,0 +1,44 @@
+.Inputt {
+  font-weight: 100;
+  background: linear-gradient(#faf5f5, #dfe6f8);
+  width: 10%;
+  display: inline-block;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 1%;
+}
+.searchHomeInputLocation {
+  width: 90%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  font-size: 1.5em;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.searchHomeInputDate {
+  width: 80%;
+  display: inline-block;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  font-size: 1em;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.searchHomeInputNumber {
+  width: 80%;
+  display: inline-block;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  font-size: 1em;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}

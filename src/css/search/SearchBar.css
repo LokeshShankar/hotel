@@ -1,0 +1,194 @@
+@import "../theme.css";
+/* 
+:root {
+  --navy: #0a1931;
+  --blue: #185adb;
+  --yellow: #ffc947;
+  --grey: #efefef;
+  --white: #ffffff;
+} */
+.search-outer-container {
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+
+.searchBarcontainer {
+  padding: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+}
+.searchBarInnerContainerLocation {
+  width: 31%;
+  display: inline-block;
+  margin: 5px 0;
+  border-width: 0px;
+}
+.searchBarInnerContainerDate {
+  width: 16%;
+  display: inline-block;
+  margin: 5px 0;
+  border-width: 0px;
+}
+.searchBarInnerContainerNumber {
+  width: 8%;
+  display: inline-block;
+  margin: 5px 0;
+  border-width: 0px;
+}
+.searchBarInnerContainerSearch {
+  width: 13%;
+  display: inline-block;
+  margin: 5px 0;
+  border-width: 0px;
+  text-align: center;
+}
+.searchBarLabels {
+  text-align: center;
+  color: var(--bg-dark-color);
+  padding-left: 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.searchBarInputLocation {
+  width: 90%;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1em;
+  outline: none;
+  /* padding: 5px;
+  box-sizing: border-box;
+  color: var(--bg-dark-color);
+  transition: 0.3s;
+  background-color: var(--bg-dark-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 600; */
+}
+
+.searchBarInputLocation::placeholder {
+  color: white;
+  font-weight: 600;
+}
+.searchBarInputNumber {
+  background-color: var(--bg-dark-color);
+  width: 90%;
+  color: white;
+  display: inline-block;
+  /* border-radius: 0.8rem; */
+  margin: 10px 0;
+  font-size: 1em;
+  outline: none;
+  padding: 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.searchBarInputDate {
+  background-color: var(--bg-dark-color);
+  width: 95%;
+  color: white;
+  display: inline-block;
+  /* border-radius: 0.8rem; */
+  margin: 10px 0;
+  font-size: 1em;
+  outline: none;
+  padding: 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+/* .searchBarButton-submit {
+  font-size: large;
+  width: 90px;
+  border-radius: 5px;
+  font-weight: 600;
+} */
+/* .search-button{
+  background-color: white;
+  color: var(--bg-dark-color);
+  color: var(--bg-dark-color);
+  font-weight: 600;
+  padding: 16px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  background-color: var(--bg-dark-color);
+  color: white;
+} */
+.admin_report_searchbar {
+  padding: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  margin-top: 2em;
+}
+@media screen and (max-width: 1312px) and (min-width: 970px) {
+  .searchBarcontainer {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .searchBarInnerContainerLocation {
+    width: 22%;
+    margin: 5px 0;
+  }
+  .searchBarInnerContainerDate {
+    width: 20%;
+    margin: 5px 0;
+  }
+  .searchBarInnerContainerNumber {
+    width: 8%;
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 970px) {
+  .searchBarcontainer {
+    padding-left: 10%;
+    padding-right: 0%;
+  }
+  .searchBarInnerContainerLocation {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .searchBarInnerContainerDate {
+    width: 50%;
+    margin: 5px 0;
+  }
+  .searchBarInnerContainerNumber {
+    width: 33%;
+    margin: 5px 0;
+  }
+  .searchBarInnerContainerSearch {
+    margin: 5px 0;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+  }
+  .searchBarInputDate {
+    margin: 2px;
+    width: 80%;
+  }
+  .searchBarInputNumber {
+    width: 40%;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .search-outer-container {
+    position: relative;
+  }
+}
+
